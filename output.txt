@@ -1,0 +1,950 @@
+  X.1 X INSTITUTION_CODE             INSTITUTION_NAME satisfied_teaching satisfied_feedback students_staff_ratio
+1   1 1              A20                    Aberdeen                89.0               77.4                 15.1
+2   2 2              A30                     Abertay                88.3               83.1                 22.8
+3   3 3              A40                 Aberystwyth                88.3               84.2                 14.9
+4   4 4              A60               Anglia Ruskin                84.4               80.1                 18.8
+5   5 5              A66 Arts University Bournemouth                83.0               78.6                 14.4
+6   6 6              A80                       Aston                84.4               76.7                 17.0
+  spent_per_student avg_entry_tariff added_value career_after_15_month continuation White.ethnic.group
+1               5.4              187         7.2                    85         94.2          0.8146718
+2               1.8              163         7.4                    78           87          0.8792271
+3               3.7              130         3.5                    77         91.4          0.9002558
+4               8.2              116         5.8                    75         87.1          0.5964523
+5               3.6              146         3.1                    65         92.7          0.8423237
+6               5.8              134         6.2                    87           95          0.1688312
+  Black.ethnic.group Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group  POLAR4.Q1 POLAR4.Q2 POLAR4.Q3
+1        0.030888031         0.08301158         0.04440154        0.019305019 0.06756757 0.1042471 0.1660232
+2        0.004830918         0.02898551         0.02898551        0.009661836 0.10144928 0.1256039 0.2125604
+3        0.017902813         0.02046036         0.04347826        0.007672634 0.15089514 0.1815857 0.2327366
+4        0.186252772         0.12749446         0.05321508        0.025498891 0.18625277 0.2073171 0.2161863
+5        0.024896266         0.04149378         0.06639004        0.016597510 0.11618257 0.1618257 0.1908714
+6        0.225649351         0.51785714         0.04058442        0.038961039 0.12500000 0.2175325 0.2792208
+  POLAR4.Q4 POLAR4.Q5 SIMD.2016.Q1 SIMD.2016.Q2 SIMD.2016.Q3 SIMD.2016.Q4 SIMD.2016.Q5       Men     Women Total
+1 0.2413127 0.4208494   0.06563707   0.08687259    0.1467181    0.2162162    0.3185328 0.4169884 0.5849421  2590
+2 0.1932367 0.3623188   0.14975845   0.14492754    0.1739130    0.2270531    0.2125604 0.5410628 0.4589372  1035
+3 0.2225064 0.2097187   0.45012788   0.54987212           NA           NA           NA 0.4501279 0.5498721  1955
+4 0.2139690 0.1707317   0.33259424   0.66740576           NA           NA           NA 0.3325942 0.6674058  4510
+5 0.2240664 0.3070539   0.25726141   0.74273859           NA           NA           NA 0.2572614 0.7427386  1205
+6 0.1899351 0.1883117   0.57305195   0.42694805           NA           NA           NA 0.5730519 0.4269481  3080
+                                         INSTITUTION_NAME satisfied_teaching satisfied_feedback
+Aberdeen                                        Aberdeen                89.0               77.4
+Abertay                                          Abertay                88.3               83.1
+Aberystwyth                                  Aberystwyth                88.3               84.2
+Anglia Ruskin                              Anglia Ruskin                84.4               80.1
+Arts University Bournemouth  Arts University Bournemouth                83.0               78.6
+Aston                                              Aston                84.4               76.7
+                             students_staff_ratio spent_per_student avg_entry_tariff added_value
+Aberdeen                                     15.1               5.4              187         7.2
+Abertay                                      22.8               1.8              163         7.4
+Aberystwyth                                  14.9               3.7              130         3.5
+Anglia Ruskin                                18.8               8.2              116         5.8
+Arts University Bournemouth                  14.4               3.6              146         3.1
+Aston                                        17.0               5.8              134         6.2
+                             career_after_15_month continuation White.ethnic.group Black.ethnic.group
+Aberdeen                                        85         94.2          0.8146718        0.030888031
+Abertay                                         78           87          0.8792271        0.004830918
+Aberystwyth                                     77         91.4          0.9002558        0.017902813
+Anglia Ruskin                                   75         87.1          0.5964523        0.186252772
+Arts University Bournemouth                     65         92.7          0.8423237        0.024896266
+Aston                                           87           95          0.1688312        0.225649351
+                             Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group  POLAR4.Q1 POLAR4.Q2
+Aberdeen                             0.08301158         0.04440154        0.019305019 0.06756757 0.1042471
+Abertay                              0.02898551         0.02898551        0.009661836 0.10144928 0.1256039
+Aberystwyth                          0.02046036         0.04347826        0.007672634 0.15089514 0.1815857
+Anglia Ruskin                        0.12749446         0.05321508        0.025498891 0.18625277 0.2073171
+Arts University Bournemouth          0.04149378         0.06639004        0.016597510 0.11618257 0.1618257
+Aston                                0.51785714         0.04058442        0.038961039 0.12500000 0.2175325
+                             POLAR4.Q3 POLAR4.Q4 POLAR4.Q5 SIMD.2016.Q1 SIMD.2016.Q2 SIMD.2016.Q3 SIMD.2016.Q4
+Aberdeen                     0.1660232 0.2413127 0.4208494   0.06563707   0.08687259    0.1467181    0.2162162
+Abertay                      0.2125604 0.1932367 0.3623188   0.14975845   0.14492754    0.1739130    0.2270531
+Aberystwyth                  0.2327366 0.2225064 0.2097187   0.45012788   0.54987212           NA           NA
+Anglia Ruskin                0.2161863 0.2139690 0.1707317   0.33259424   0.66740576           NA           NA
+Arts University Bournemouth  0.1908714 0.2240664 0.3070539   0.25726141   0.74273859           NA           NA
+Aston                        0.2792208 0.1899351 0.1883117   0.57305195   0.42694805           NA           NA
+                             SIMD.2016.Q5       Men     Women Total
+Aberdeen                        0.3185328 0.4169884 0.5849421  2590
+Abertay                         0.2125604 0.5410628 0.4589372  1035
+Aberystwyth                            NA 0.4501279 0.5498721  1955
+Anglia Ruskin                          NA 0.3325942 0.6674058  4510
+Arts University Bournemouth            NA 0.2572614 0.7427386  1205
+Aston                                  NA 0.5730519 0.4269481  3080
+'data.frame':	120 obs. of  27 variables:
+ $ INSTITUTION_NAME     : chr  "Aberdeen " "Abertay " "Aberystwyth " "Anglia Ruskin " ...
+ $ satisfied_teaching   : num  89 88.3 88.3 84.4 83 84.4 83.2 88 84.1 85.2 ...
+ $ satisfied_feedback   : num  77.4 83.1 84.2 80.1 78.6 76.7 78.2 72.8 81 79 ...
+ $ students_staff_ratio : num  15.1 22.8 14.9 18.8 14.4 17 17.1 15.3 19.6 24.5 ...
+ $ spent_per_student    : num  5.4 1.8 3.7 8.2 3.6 5.8 3.5 6.2 3.2 3.2 ...
+ $ avg_entry_tariff     : int  187 163 130 116 146 134 131 180 123 108 ...
+ $ added_value          : num  7.2 7.4 3.5 5.8 3.1 6.2 5.7 6 6.3 3.3 ...
+ $ career_after_15_month: int  85 78 77 75 65 87 78 92 72 71 ...
+ $ continuation         : chr  "94.2" "87" "91.4" "87.1" ...
+ $ White.ethnic.group   : num  0.815 0.879 0.9 0.596 0.842 ...
+ $ Black.ethnic.group   : num  0.03089 0.00483 0.0179 0.18625 0.0249 ...
+ $ Asian.ethnic.group   : num  0.083 0.029 0.0205 0.1275 0.0415 ...
+ $ Mixed.ethnic.group   : num  0.0444 0.029 0.0435 0.0532 0.0664 ...
+ $ Other.ethnic.group   : num  0.01931 0.00966 0.00767 0.0255 0.0166 ...
+ $ POLAR4.Q1            : num  0.0676 0.1014 0.1509 0.1863 0.1162 ...
+ $ POLAR4.Q2            : num  0.104 0.126 0.182 0.207 0.162 ...
+ $ POLAR4.Q3            : num  0.166 0.213 0.233 0.216 0.191 ...
+ $ POLAR4.Q4            : num  0.241 0.193 0.223 0.214 0.224 ...
+ $ POLAR4.Q5            : num  0.421 0.362 0.21 0.171 0.307 ...
+ $ SIMD.2016.Q1         : num  0.0656 0.1498 0.4501 0.3326 0.2573 ...
+ $ SIMD.2016.Q2         : num  0.0869 0.1449 0.5499 0.6674 0.7427 ...
+ $ SIMD.2016.Q3         : num  0.147 0.174 NA NA NA ...
+ $ SIMD.2016.Q4         : num  0.216 0.227 NA NA NA ...
+ $ SIMD.2016.Q5         : num  0.319 0.213 NA NA NA ...
+ $ Men                  : num  0.417 0.541 0.45 0.333 0.257 ...
+ $ Women                : num  0.585 0.459 0.55 0.667 0.743 ...
+ $ Total                : int  2590 1035 1955 4510 1205 3080 2075 3495 5055 2110 ...
+ INSTITUTION_NAME   satisfied_teaching satisfied_feedback students_staff_ratio spent_per_student avg_entry_tariff
+ Length:120         Min.   :78.40      Min.   :61.40      Min.   :10.30        Min.   : 1.800    Min.   :102.0   
+ Class :character   1st Qu.:83.00      1st Qu.:74.90      1st Qu.:14.40        1st Qu.: 4.000    1st Qu.:123.8   
+ Mode  :character   Median :84.60      Median :79.00      Median :15.75        Median : 5.150    Median :132.5   
+                    Mean   :84.74      Mean   :77.83      Mean   :16.22        Mean   : 5.330    Mean   :141.7   
+                    3rd Qu.:86.35      3rd Qu.:81.30      3rd Qu.:18.02        3rd Qu.: 6.325    3rd Qu.:157.0   
+                    Max.   :94.30      Max.   :88.80      Max.   :25.00        Max.   :10.000    Max.   :212.0   
+                    NA's   :1          NA's   :1                                                                 
+  added_value    career_after_15_month continuation       White.ethnic.group Black.ethnic.group
+ Min.   :2.300   Min.   :65.00         Length:120         Min.   :0.1688     Min.   :0.004831  
+ 1st Qu.:4.700   1st Qu.:77.00         Class :character   1st Qu.:0.5007     1st Qu.:0.029164  
+ Median :5.550   Median :80.00         Mode  :character   Median :0.7375     Median :0.056466  
+ Mean   :5.468   Mean   :80.67                            Mean   :0.6611     Mean   :0.092555  
+ 3rd Qu.:6.200   3rd Qu.:86.00                            3rd Qu.:0.8432     3rd Qu.:0.118102  
+ Max.   :7.800   Max.   :96.00                            Max.   :0.9619     Max.   :0.362379  
+                                                                                               
+ Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group   POLAR4.Q1         POLAR4.Q2         POLAR4.Q3     
+ Min.   :0.01296    Min.   :0.008475   Min.   :0.00000    Min.   :0.03361   Min.   :0.05882   Min.   :0.1221  
+ 1st Qu.:0.05559    1st Qu.:0.039131   1st Qu.:0.01377    1st Qu.:0.06801   1st Qu.:0.10590   1st Qu.:0.1594  
+ Median :0.10429    Median :0.053280   Median :0.01931    Median :0.11550   Median :0.15461   Median :0.1852  
+ Mean   :0.14522    Mean   :0.055349   Mean   :0.02931    Mean   :0.12944   Mean   :0.15801   Mean   :0.1890  
+ 3rd Qu.:0.20103    3rd Qu.:0.069408   3rd Qu.:0.03148    3rd Qu.:0.17226   3rd Qu.:0.20077   3rd Qu.:0.2111  
+ Max.   :0.62771    Max.   :0.134454   Max.   :0.24528    Max.   :0.34139   Max.   :0.29870   Max.   :0.3312  
+                                                                                                              
+   POLAR4.Q4        POLAR4.Q5        SIMD.2016.Q1      SIMD.2016.Q2      SIMD.2016.Q3      SIMD.2016.Q4   
+ Min.   :0.1133   Min.   :0.06061   Min.   :0.06564   Min.   :0.06545   Min.   :0.07273   Min.   :0.1127  
+ 1st Qu.:0.1950   1st Qu.:0.19332   1st Qu.:0.35902   1st Qu.:0.51335   1st Qu.:0.13897   1st Qu.:0.1681  
+ Median :0.2168   Median :0.28207   Median :0.40204   Median :0.57256   Median :0.16380   Median :0.1952  
+ Mean   :0.2272   Mean   :0.29389   Mean   :0.38843   Mean   :0.52572   Mean   :0.15146   Mean   :0.1902  
+ 3rd Qu.:0.2417   3rd Qu.:0.39142   3rd Qu.:0.46805   3rd Qu.:0.61279   3rd Qu.:0.17355   3rd Qu.:0.2064  
+ Max.   :0.3873   Max.   :0.53091   Max.   :0.63871   Max.   :0.74644   Max.   :0.20122   Max.   :0.2812  
+                                                                        NA's   :106       NA's   :106     
+  SIMD.2016.Q5         Men             Women            Total      
+ Min.   :0.1272   Min.   :0.2500   Min.   :0.3645   Min.   :  820  
+ 1st Qu.:0.2086   1st Qu.:0.3769   1st Qu.:0.5312   1st Qu.: 2240  
+ Median :0.2328   Median :0.4113   Median :0.5883   Median : 3490  
+ Mean   :0.2366   Mean   :0.4204   Mean   :0.5797   Mean   : 3703  
+ 3rd Qu.:0.2612   3rd Qu.:0.4694   3rd Qu.:0.6223   3rd Qu.: 4491  
+ Max.   :0.3227   Max.   :0.6387   Max.   :0.7500   Max.   :17385  
+ NA's   :106                                                       
+  [1] "94.2" "87"   "91.4" "87.1" "92.7" "95"   "90"   "96.8" "91.3" "81.2" "96"   "90.5" "84.7" "83.7" "89.9"
+ [16] "90.9" "89.2" "96.6" "89.6" "84.2" "99"   "86"   "94.5" "86.7" "86.7" "90.2" "92.2" "92.1" "88.6" "87.4"
+ [31] "87.7" "92.3" "97.5" "91.6" "91.2" "97.1" "90"   "89.8" "96.2" "n/a"  "94.7" "91.3" "89.7" "85"   "85.8"
+ [46] "91.7" "88.9" "87.9" "87.6" "95.6" "92.8" "93.4" "94.6" "90.8" "96.8" "96"   "87.3" "87.8" "95.1" "94.3"
+ [61] "95.9" "89.3" "92.2" "83.8" "96.6" "86.7" "96.6" "96.2" "90.3" "82.5" "95.3" "87.8" "89.2" "95.7" "92.5"
+ [76] "98"   "93.6" "91.5" "90.7" "92.3" "95.3" "93.8" "94.6" "88.6" "87.9" "93.8" "88.1" "95.7" "89.9" "91.8"
+ [91] "88"   "86.9" "95.1" "97.2" "84.3" "85.8" "93"   "93.6" "87.6" "85.2" "93.7" "95.2" "92"   "86.2" "84.1"
+[106] "96.4" "93.3" "90.8" "87.7" "91.3" "90.2" "96.3" "85.9" "81.9" "89.2" "89.1" "82.9" "88.1" "96"   "88.3"
+     INSTITUTION_NAME    satisfied_teaching    satisfied_feedback  students_staff_ratio     spent_per_student 
+                    0                     1                     1                     0                     0 
+     avg_entry_tariff           added_value career_after_15_month          continuation    White.ethnic.group 
+                    0                     0                     0                     1                     0 
+   Black.ethnic.group    Asian.ethnic.group    Mixed.ethnic.group    Other.ethnic.group             POLAR4.Q1 
+                    0                     0                     0                     0                     0 
+            POLAR4.Q2             POLAR4.Q3             POLAR4.Q4             POLAR4.Q5          SIMD.2016.Q1 
+                    0                     0                     0                     0                     0 
+         SIMD.2016.Q2          SIMD.2016.Q3          SIMD.2016.Q4          SIMD.2016.Q5                   Men 
+                    0                   106                   106                   106                     0 
+                Women                 Total 
+                    0                     0 
+          INSTITUTION_NAME satisfied_teaching satisfied_feedback students_staff_ratio spent_per_student
+Falmouth         Falmouth                83.8               80.2                 14.3               5.8
+          avg_entry_tariff added_value career_after_15_month continuation White.ethnic.group Black.ethnic.group
+Falmouth               134         4.7                    70           NA          0.9071274         0.01511879
+          Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group POLAR4.Q1 POLAR4.Q2 POLAR4.Q3 POLAR4.Q4
+Falmouth          0.01295896          0.0475162        0.004319654  0.112311 0.1835853 0.1943844 0.2397408
+          POLAR4.Q5 SIMD.2016.Q1 SIMD.2016.Q2 SIMD.2016.Q3 SIMD.2016.Q4 SIMD.2016.Q5       Men    Women Total
+Falmouth  0.2634989    0.4859611     0.511879           NA           NA           NA 0.4859611 0.511879  2315
+           INSTITUTION_NAME satisfied_teaching satisfied_feedback students_staff_ratio spent_per_student
+Cambridge        Cambridge                  NA                 NA                 11.6               9.8
+           avg_entry_tariff added_value career_after_15_month continuation White.ethnic.group Black.ethnic.group
+Cambridge               208         5.5                    94           99          0.6504505         0.05045045
+           Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group  POLAR4.Q1  POLAR4.Q2 POLAR4.Q3 POLAR4.Q4
+Cambridge           0.1765766         0.09009009         0.01621622 0.05225225 0.09369369 0.1261261 0.2126126
+           POLAR4.Q5 SIMD.2016.Q1 SIMD.2016.Q2 SIMD.2016.Q3 SIMD.2016.Q4 SIMD.2016.Q5       Men     Women Total
+Cambridge  0.5153153    0.4684685    0.5315315           NA           NA           NA 0.4684685 0.5315315  2775
+                        Aberdeen                           Abertay                       Aberystwyth  
+                        0.9922780                         0.9516908                         0.9897698 
+                   Anglia Ruskin       Arts University Bournemouth                             Aston  
+                        0.9889135                         0.9917012                         0.9918831 
+                          Bangor                              Bath                          Bath Spa  
+                        0.9903614                         0.9885551                         0.9851632 
+                    Bedfordshire                        Birmingham                   Birmingham City  
+                        0.9786730                         0.9933649                         0.9915815 
+    Birmingham Newman University                            Bolton                       Bournemouth  
+                        0.7605042                         0.9925373                         0.9948507 
+                        Bradford                          Brighton                           Bristol  
+                        0.9891775                         0.9394645                         0.9866667 
+                          Brunel    Buckinghamshire New University                         Cambridge  
+                        0.9848812                         0.8662132                         0.9837838 
+        Canterbury Christ Church                           Cardiff                       Cardiff Met  
+                        0.9565718                         0.9937057                         0.9930168 
+              Central Lancashire                           Chester                        Chichester  
+                        0.9873563                         0.9947368                         0.9938080 
+                            City                           Cumbria                       De Montfort  
+                        0.9891304                         0.8855932                         0.9888098 
+                           Derby                            Dundee                            Durham  
+                        0.9906103                         0.9960474                         0.9854015 
+                     East London                         Edge Hill                         Edinburgh  
+                        0.9798387                         0.9909444                         0.9872832 
+                Edinburgh Napier                             Essex                            Exeter  
+                        0.9905956                         0.9917012                         0.9912377 
+                         Glasgow                Glasgow Caledonian                   Gloucestershire  
+                        0.9896801                         0.9897829                         0.9922680 
+                      Goldsmiths                         Greenwich                       Heriot-Watt  
+                        0.9870130                         0.9860506                         0.9895833 
+                   Hertfordshire                      Huddersfield                              Hull  
+                        0.9908116                         0.9926036                         0.9915683 
+                Imperial College                             Keele                              Kent  
+                        0.9838710                         0.9893617                         0.9528178 
+           King's College London                          Kingston                         Lancaster  
+                        0.9861111                         0.9863791                         0.9913917 
+                           Leeds                     Leeds Beckett                     Leeds Trinity  
+                        0.9901257                         0.9939236                         0.9879931 
+                       Leicester                           Lincoln                         Liverpool  
+                        0.9925000                         0.9955407                         0.9943020 
+                  Liverpool Hope             Liverpool John Moores                        London Met  
+                        0.9912791                         0.9942734                         0.9873096 
+      London School of Economics                 London South Bank                      Loughborough  
+                        0.9869565                         0.9847856                         0.9924433 
+                      Manchester                    Manchester Met                         Middlesex  
+                        0.9904459                         0.9940945                         0.9725777 
+                       Newcastle                       Northampton                       Northumbria  
+                        0.9915326                         0.9951299                         0.9954792 
+                      Nottingham                  Nottingham Trent                            Oxford  
+                        0.9912985                         0.9920424                         0.9789272 
+                  Oxford Brookes                          Plymouth                        Portsmouth  
+                        0.9825654                         0.9954181                         0.9913514 
+                  Queen Margaret                        Queen Mary                    Queen's Belfast 
+                        0.9939024                         0.9864865                         0.9938272 
+                         Reading                     Robert Gordon                        Roehampton  
+                        0.9906417                         0.9951100                         0.9831650 
+                  Royal Holloway                           Salford                         Sheffield  
+                        0.9876733                         0.9895833                         0.9917780 
+                Sheffield Hallam                              SOAS                            Solent  
+                        0.9913793                         0.9789916                         0.9912281 
+                     South Wales                       Southampton                        St Andrews  
+                        0.9910714                         0.9896373                         0.9818182 
+          St Mary's  Twickenham                      Staffordshire                          Stirling  
+                        0.9907407                         0.9820144                         0.9887387 
+                     Strathclyde                           Suffolk                        Sunderland  
+                        0.9914945                         0.9800000                         0.9668990 
+                          Surrey                            Sussex                           Swansea  
+                        0.9900332                         0.9920424                         0.9926004 
+                        Teesside               Trinity Saint David                               UCL  
+                        0.9924471                         0.9233716                         0.9844237 
+                             UEA                            Ulster  University for the Creative Arts  
+                        0.9931034                         0.9965368                         0.9760766 
+   University of the Arts London                       UWE Bristol                           Warwick  
+                        0.9843305                         0.9940120                         0.9844869 
+                     West London                  West of Scotland                       Westminster  
+                        0.9844358                         0.9927746                         0.9839357 
+                      Winchester                     Wolverhampton                         Worcester  
+                        0.9952038                         0.9876847                         0.9910714 
+                            York                      York St John  
+                        0.9917062                         0.9957537 
+                        Aberdeen                           Abertay                       Aberystwyth  
+                        1.0000000                         0.9951691                         0.9974425 
+                   Anglia Ruskin       Arts University Bournemouth                             Aston  
+                        0.9944568                         1.0000000                         1.0000000 
+                          Bangor                              Bath                          Bath Spa  
+                        1.0000000                         1.0000000                         0.9980218 
+                    Bedfordshire                        Birmingham                   Birmingham City  
+                        1.0000000                         1.0000000                         0.9981960 
+    Birmingham Newman University                            Bolton                       Bournemouth  
+                        0.9957983                         0.9950249                         0.9969104 
+                        Bradford                          Brighton                           Bristol  
+                        0.9978355                         0.9988359                         0.9989744 
+                          Brunel    Buckinghamshire New University                         Cambridge  
+                        0.9978402                         0.9977324                         1.0000000 
+        Canterbury Christ Church                           Cardiff                       Cardiff Met  
+                        0.9965487                         1.0000000                         0.9986034 
+              Central Lancashire                           Chester                        Chichester  
+                        0.9931034                         1.0000000                         1.0000000 
+                            City                           Cumbria                       De Montfort  
+                        0.9975845                         0.9872881                         0.9989827 
+                           Derby                            Dundee                            Durham  
+                        0.9968701                         0.9960474                         0.9985401 
+                     East London                         Edge Hill                         Edinburgh  
+                        0.9327957                         0.9987063                         0.9976879 
+                Edinburgh Napier                             Essex                            Exeter  
+                        0.9968652                         0.9979253                         1.0000000 
+                         Glasgow                Glasgow Caledonian                   Gloucestershire  
+                        1.0000000                         0.9987229                         0.9974227 
+                      Goldsmiths                         Greenwich                       Heriot-Watt  
+                        1.0000000                         0.9947690                         1.0000000 
+                   Hertfordshire                      Huddersfield                              Hull  
+                        0.9984686                         0.9985207                         0.9966273 
+                Imperial College                             Keele                              Kent  
+                        1.0000000                         0.9982270                         0.9973788 
+           King's College London                          Kingston                         Lancaster  
+                        0.9988426                         0.9988649                         0.9985653 
+                           Leeds                     Leeds Beckett                     Leeds Trinity  
+                        1.0008977                         0.9982639                         0.9965695 
+                       Leicester                           Lincoln                         Liverpool  
+                        1.0000000                         0.9988852                         1.0000000 
+                  Liverpool Hope             Liverpool John Moores                        London Met  
+                        1.0029070                         0.9985684                         0.9974619 
+      London School of Economics                 London South Bank                      Loughborough  
+                        1.0000000                         0.9930844                         1.0000000 
+                      Manchester                    Manchester Met                         Middlesex  
+                        0.9992038                         0.9990157                         0.9981718 
+                       Newcastle                       Northampton                       Northumbria  
+                        0.9991533                         1.0000000                         0.9990958 
+                      Nottingham                  Nottingham Trent                            Oxford  
+                        0.9993307                         0.9989390                         1.0000000 
+                  Oxford Brookes                          Plymouth                        Portsmouth  
+                        0.9987547                         0.9988545                         0.9956757 
+                  Queen Margaret                        Queen Mary                    Queen's Belfast 
+                        1.0000000                         1.0000000                         1.0000000 
+                         Reading                     Robert Gordon                        Roehampton  
+                        0.9986631                         0.9975550                         0.9966330 
+                  Royal Holloway                           Salford                         Sheffield  
+                        0.9984592                         0.9983974                         1.0000000 
+                Sheffield Hallam                              SOAS                            Solent  
+                        0.9971264                         0.9957983                         1.0000000 
+                     South Wales                       Southampton                        St Andrews  
+                        0.9977679                         0.9987047                         0.9927273 
+          St Mary's  Twickenham                      Staffordshire                          Stirling  
+                        1.0000000                         0.9988010                         0.9977477 
+                     Strathclyde                           Suffolk                        Sunderland  
+                        1.0000000                         0.9950000                         0.9930314 
+                          Surrey                            Sussex                           Swansea  
+                        1.0000000                         0.9986737                         1.0000000 
+                        Teesside               Trinity Saint David                               UCL  
+                        0.9969789                         0.9961686                         1.0000000 
+                             UEA                            Ulster  University for the Creative Arts  
+                        0.9986207                         0.9982684                         0.9904306 
+   University of the Arts London                       UWE Bristol                           Warwick  
+                        1.0000000                         0.9985030                         0.9988067 
+                     West London                  West of Scotland                       Westminster  
+                        0.9961089                         0.9985549                         0.9989960 
+                      Winchester                     Wolverhampton                         Worcester  
+                        0.9976019                         0.9938424                         0.9955357 
+                            York                      York St John  
+                        0.9976303                         1.0000000 
+                        Aberdeen                           Abertay                       Aberystwyth  
+                        1.0019305                         1.0000000                         1.0000000 
+                   Anglia Ruskin       Arts University Bournemouth                             Aston  
+                        1.0000000                         1.0000000                         1.0000000 
+                          Bangor                              Bath                          Bath Spa  
+                        1.0000000                         1.0014306                         1.0009891 
+                    Bedfordshire                        Birmingham                   Birmingham City  
+                        1.0000000                         1.0000000                         1.0000000 
+    Birmingham Newman University                            Bolton                       Bournemouth  
+                        1.0000000                         0.9975124                         1.0010299 
+                        Bradford                          Brighton                           Bristol  
+                        1.0000000                         1.0011641                         1.0010256 
+                          Brunel    Buckinghamshire New University                         Cambridge  
+                        1.0000000                         1.0000000                         1.0000000 
+        Canterbury Christ Church                           Cardiff                       Cardiff Met  
+                        1.0000000                         1.0007868                         1.0000000 
+              Central Lancashire                           Chester                        Chichester  
+                        1.0000000                         1.0000000                         1.0030960 
+                            City                           Cumbria                       De Montfort  
+                        1.0000000                         1.0042373                         1.0010173 
+                           Derby                            Dundee                            Durham  
+                        1.0000000                         1.0000000                         1.0000000 
+                     East London                         Edge Hill                         Edinburgh  
+                        1.0000000                         1.0000000                         1.0000000 
+                Edinburgh Napier                             Essex                            Exeter  
+                        1.0000000                         1.0020747                         1.0000000 
+                         Glasgow                Glasgow Caledonian                   Gloucestershire  
+                        1.0000000                         1.0000000                         1.0000000 
+                      Goldsmiths                         Greenwich                       Heriot-Watt  
+                        1.0000000                         1.0000000                         1.0000000 
+                   Hertfordshire                      Huddersfield                              Hull  
+                        1.0000000                         1.0000000                         1.0016863 
+                Imperial College                             Keele                              Kent  
+                        1.0032258                         1.0000000                         1.0000000 
+           King's College London                          Kingston                         Lancaster  
+                        1.0000000                         0.9988649                         1.0000000 
+                           Leeds                     Leeds Beckett                     Leeds Trinity  
+                        1.0000000                         1.0000000                         1.0000000 
+                       Leicester                           Lincoln                         Liverpool  
+                        1.0000000                         1.0000000                         1.0000000 
+                  Liverpool Hope             Liverpool John Moores                        London Met  
+                        1.0029070                         1.0000000                         1.0025381 
+      London School of Economics                 London South Bank                      Loughborough  
+                        1.0043478                         1.0000000                         1.0012594 
+                      Manchester                    Manchester Met                         Middlesex  
+                        1.0000000                         0.9995079                         1.0000000 
+                       Newcastle                       Northampton                       Northumbria  
+                        1.0000000                         1.0000000                         1.0000000 
+                      Nottingham                  Nottingham Trent                            Oxford  
+                        1.0000000                         1.0005305                         0.9980843 
+                  Oxford Brookes                          Plymouth                        Portsmouth  
+                        1.0012453                         1.0000000                         1.0000000 
+                  Queen Margaret                        Queen Mary                    Queen's Belfast 
+                        1.0000000                         1.0011261                         1.0000000 
+                         Reading                     Robert Gordon                        Roehampton  
+                        1.0000000                         1.0000000                         1.0000000 
+                  Royal Holloway                           Salford                         Sheffield  
+                        0.9984592                         1.0000000                         1.0000000 
+                Sheffield Hallam                              SOAS                            Solent  
+                        0.9992816                         1.0000000                         1.0000000 
+                     South Wales                       Southampton                        St Andrews  
+                        0.9977679                         1.0000000                         1.0000000 
+          St Mary's  Twickenham                      Staffordshire                          Stirling  
+                        0.9953704                         0.9988010                         1.0000000 
+                     Strathclyde                           Suffolk                        Sunderland  
+                        1.0000000                         1.0000000                         0.9982578 
+                          Surrey                            Sussex                           Swansea  
+                        1.0000000                         1.0000000                         1.0000000 
+                        Teesside               Trinity Saint David                               UCL  
+                        1.0000000                         1.0000000                         1.0000000 
+                             UEA                            Ulster  University for the Creative Arts  
+                        1.0000000                         1.0000000                         1.0000000 
+   University of the Arts London                       UWE Bristol                           Warwick  
+                        1.0000000                         1.0000000                         1.0000000 
+                     West London                  West of Scotland                       Westminster  
+                        1.0019455                         1.0000000                         1.0000000 
+                      Winchester                     Wolverhampton                         Worcester  
+                        1.0000000                         0.9987685                         0.9977679 
+                            York                      York St John  
+                        0.9988152                         1.0000000 
+               INSTITUTION_NAME satisfied_teaching satisfied_feedback students_staff_ratio spent_per_student
+Leeds Trinity    Leeds Trinity                89.4               88.1                 18.1               3.9
+               avg_entry_tariff added_value career_after_15_month continuation White.ethnic.group
+Leeds Trinity               110         4.3                    78         87.8          0.3767361
+               Black.ethnic.group Asian.ethnic.group Mixed.ethnic.group Other.ethnic.group POLAR4.Q1 POLAR4.Q2
+Leeds Trinity           0.1006944          0.2239583         0.05034722          0.2482639  0.232358 0.2547332
+               POLAR4.Q3 POLAR4.Q4  POLAR4.Q5       Men     Women Total
+Leeds Trinity  0.2375215 0.1841652 0.09122203 0.4476844 0.5523156  2915
+[1] -0.04274935
+[1] 0.5287624
+
+Call:
+lm(formula = satisfied_feedback ~ ., data = model_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.4433 -1.0860 -0.0002  1.4332  7.8290 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           78.39748    0.28259 277.427  < 2e-16 ***
+satisfied_teaching     2.75913    0.25383  10.870  < 2e-16 ***
+students_staff_ratio  -0.08355    0.31545  -0.265  0.79161    
+spent_per_student     -0.13429    0.29859  -0.450  0.65378    
+avg_entry_tariff      -1.61632    0.39145  -4.129 7.12e-05 ***
+RG                    -3.01668    0.82431  -3.660  0.00039 ***
+career_after_15_month -1.20626    0.37997  -3.175  0.00195 ** 
+continuation          -0.39996    0.40368  -0.991  0.32397    
+POLAR4.Q1Q2            0.86279    0.27823   3.101  0.00245 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.493 on 110 degrees of freedom
+Multiple R-squared:  0.7892,	Adjusted R-squared:  0.7739 
+F-statistic: 51.48 on 8 and 110 DF,  p-value: < 2.2e-16
+
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 4.2e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.42 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.066 seconds (Warm-up)
+Chain 1:                0.053 seconds (Sampling)
+Chain 1:                0.119 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 5e-06 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.072 seconds (Warm-up)
+Chain 2:                0.051 seconds (Sampling)
+Chain 2:                0.123 seconds (Total)
+Chain 2: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 3e-06 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.069 seconds (Warm-up)
+Chain 3:                0.055 seconds (Sampling)
+Chain 3:                0.124 seconds (Total)
+Chain 3: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 7e-06 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.071 seconds (Warm-up)
+Chain 4:                0.051 seconds (Sampling)
+Chain 4:                0.122 seconds (Total)
+Chain 4: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 7.1e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.71 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.382 seconds (Warm-up)
+Chain 1:                0.248 seconds (Sampling)
+Chain 1:                0.63 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 1.5e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.388 seconds (Warm-up)
+Chain 2:                0.207 seconds (Sampling)
+Chain 2:                0.595 seconds (Total)
+Chain 2: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+Chain 3: Rejecting initial value:
+Chain 3:   Log probability evaluates to log(0), i.e. negative infinity.
+Chain 3:   Stan can't start sampling from this initial value.
+Chain 3: 
+Chain 3: Gradient evaluation took 1.4e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.14 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.371 seconds (Warm-up)
+Chain 3:                0.226 seconds (Sampling)
+Chain 3:                0.597 seconds (Total)
+Chain 3: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 4: Rejecting initial value:
+Chain 4:   Log probability evaluates to log(0), i.e. negative infinity.
+Chain 4:   Stan can't start sampling from this initial value.
+Chain 4: 
+Chain 4: Gradient evaluation took 1.4e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.14 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.379 seconds (Warm-up)
+Chain 4:                0.238 seconds (Sampling)
+Chain 4:                0.617 seconds (Total)
+Chain 4: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 9.4e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.94 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 1: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 1: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 1: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 1: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 1: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 1: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 1: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 1: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 1: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 1: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.831 seconds (Warm-up)
+Chain 1:                0.793 seconds (Sampling)
+Chain 1:                1.624 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 1.9e-05 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.19 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 2: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 2: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 2: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 2: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 2: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 2: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 2: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 2: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 2: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 2: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 2: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.818 seconds (Warm-up)
+Chain 2:                0.882 seconds (Sampling)
+Chain 2:                1.7 seconds (Total)
+Chain 2: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 2.3e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.23 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 3: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 3: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 3: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 3: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 3: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 3: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 3: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 3: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 3: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 3: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 3: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.853 seconds (Warm-up)
+Chain 3:                0.951 seconds (Sampling)
+Chain 3:                1.804 seconds (Total)
+Chain 3: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 2.1e-05 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.21 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 6000 [  0%]  (Warmup)
+Chain 4: Iteration:  600 / 6000 [ 10%]  (Warmup)
+Chain 4: Iteration: 1200 / 6000 [ 20%]  (Warmup)
+Chain 4: Iteration: 1800 / 6000 [ 30%]  (Warmup)
+Chain 4: Iteration: 2400 / 6000 [ 40%]  (Warmup)
+Chain 4: Iteration: 3000 / 6000 [ 50%]  (Warmup)
+Chain 4: Iteration: 3001 / 6000 [ 50%]  (Sampling)
+Chain 4: Iteration: 3600 / 6000 [ 60%]  (Sampling)
+Chain 4: Iteration: 4200 / 6000 [ 70%]  (Sampling)
+Chain 4: Iteration: 4800 / 6000 [ 80%]  (Sampling)
+Chain 4: Iteration: 5400 / 6000 [ 90%]  (Sampling)
+Chain 4: Iteration: 6000 / 6000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.849 seconds (Warm-up)
+Chain 4:                0.936 seconds (Sampling)
+Chain 4:                1.785 seconds (Total)
+Chain 4: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: 
+Chain 1: Gradient evaluation took 9e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.9 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 0.294 seconds (Warm-up)
+Chain 1:                0.14 seconds (Sampling)
+Chain 1:                0.434 seconds (Total)
+Chain 1: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 9e-06 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 0.283 seconds (Warm-up)
+Chain 2:                0.136 seconds (Sampling)
+Chain 2:                0.419 seconds (Total)
+Chain 2: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+Chain 3: 
+Chain 3: Gradient evaluation took 1.1e-05 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 0.306 seconds (Warm-up)
+Chain 3:                0.131 seconds (Sampling)
+Chain 3:                0.437 seconds (Total)
+Chain 3: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 4: 
+Chain 4: Gradient evaluation took 8e-06 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.08 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 0.248 seconds (Warm-up)
+Chain 4:                0.148 seconds (Sampling)
+Chain 4:                0.396 seconds (Total)
+Chain 4: 
+        model      waic       loo
+1      Normal -571.4500 -570.4254
+2 Skew Normal -572.4314 -571.4483
+3        Beta -584.6258 -583.5511
+4   Student-t -574.0072 -573.1673
+ Family: skew_normal 
+  Links: mu = identity; sigma = identity; alpha = identity 
+Formula: satisfied_feedback/100 ~ satisfied_teaching + students_staff_ratio + spent_per_student + avg_entry_tariff + RG + career_after_15_month + continuation + POLAR4.Q1Q2 + I(satisfied_teaching^2) + I(continuation^2) + satisfied_teaching:spent_per_student:students_staff_ratio + POLAR4.Q1Q2:avg_entry_tariff 
+   Data: model_data (Number of observations: 117) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Regression Coefficients:
+                                                          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept                                                     0.79      0.00     0.78     0.80 1.00     4540
+satisfied_teaching                                            0.03      0.00     0.03     0.04 1.00     4451
+students_staff_ratio                                         -0.00      0.00    -0.01     0.00 1.00     4698
+spent_per_student                                            -0.00      0.00    -0.01     0.00 1.00     5270
+avg_entry_tariff                                             -0.01      0.00    -0.02    -0.01 1.00     2463
+RG                                                           -0.01      0.01    -0.03     0.00 1.00     2545
+career_after_15_month                                        -0.01      0.00    -0.01    -0.00 1.00     4471
+continuation                                                 -0.01      0.00    -0.02    -0.01 1.00     2980
+POLAR4.Q1Q2                                                   0.01      0.00     0.00     0.02 1.00     2583
+Isatisfied_teachingE2                                         0.01      0.00     0.00     0.01 1.00     5051
+IcontinuationE2                                              -0.01      0.00    -0.02    -0.01 1.00     3550
+avg_entry_tariff:POLAR4.Q1Q2                                  0.01      0.00     0.00     0.02 1.00     2430
+satisfied_teaching:students_staff_ratio:spent_per_student     0.00      0.00    -0.00     0.00 1.00     5224
+                                                          Tail_ESS
+Intercept                                                     3274
+satisfied_teaching                                            3056
+students_staff_ratio                                          3311
+spent_per_student                                             3309
+avg_entry_tariff                                              2636
+RG                                                            2384
+career_after_15_month                                         3031
+continuation                                                  2776
+POLAR4.Q1Q2                                                   2839
+Isatisfied_teachingE2                                         2998
+IcontinuationE2                                               3362
+avg_entry_tariff:POLAR4.Q1Q2                                  2684
+satisfied_teaching:students_staff_ratio:spent_per_student     3354
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sigma     0.02      0.00     0.02     0.02 1.00     2450     2520
+alpha    -0.52      0.10    -0.72    -0.33 1.00     3212     2306
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+ Family: beta 
+  Links: mu = logit; phi = identity 
+Formula: satisfied_feedback/100 ~ satisfied_teaching + students_staff_ratio + spent_per_student + avg_entry_tariff + RG + career_after_15_month + continuation + POLAR4.Q1Q2 + I(satisfied_teaching^2) + I(continuation^2) + satisfied_teaching:spent_per_student:students_staff_ratio + POLAR4.Q1Q2:avg_entry_tariff 
+   Data: model_data (Number of observations: 117) 
+  Draws: 4 chains, each with iter = 6000; warmup = 3000; thin = 1;
+         total post-warmup draws = 12000
+
+Regression Coefficients:
+                                                          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept                                                     1.34      0.02     1.29     1.38 1.00    12848
+satisfied_teaching                                            0.21      0.02     0.18     0.24 1.00    10910
+students_staff_ratio                                         -0.00      0.02    -0.03     0.03 1.00    11911
+spent_per_student                                            -0.01      0.02    -0.04     0.02 1.00    12984
+avg_entry_tariff                                             -0.09      0.03    -0.14    -0.04 1.00     8453
+RG                                                           -0.02      0.04    -0.10     0.06 1.00    11055
+career_after_15_month                                        -0.04      0.02    -0.08    -0.01 1.00    13778
+continuation                                                 -0.09      0.02    -0.13    -0.05 1.00     9223
+POLAR4.Q1Q2                                                   0.05      0.02     0.01     0.08 1.00     8921
+Isatisfied_teachingE2                                         0.03      0.01     0.02     0.05 1.00    12009
+IcontinuationE2                                              -0.07      0.01    -0.09    -0.04 1.00     9659
+avg_entry_tariff:POLAR4.Q1Q2                                  0.04      0.02    -0.01     0.08 1.00     7805
+satisfied_teaching:students_staff_ratio:spent_per_student     0.02      0.01     0.00     0.03 1.00    11227
+                                                          Tail_ESS
+Intercept                                                     9477
+satisfied_teaching                                            9682
+students_staff_ratio                                          8910
+spent_per_student                                             8692
+avg_entry_tariff                                              8499
+RG                                                            9352
+career_after_15_month                                         8895
+continuation                                                  9420
+POLAR4.Q1Q2                                                   9149
+Isatisfied_teachingE2                                         9415
+IcontinuationE2                                               8159
+avg_entry_tariff:POLAR4.Q1Q2                                  8198
+satisfied_teaching:students_staff_ratio:spent_per_student     9600
+
+Further Distributional Parameters:
+    Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+phi   446.87     61.96   334.10   576.05 1.00    13050     9105
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
